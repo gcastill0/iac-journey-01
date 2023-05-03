@@ -9,7 +9,7 @@ sudo apt install nginx -y
 
 # This is a simple Web app to show that the deployment works.
 
-sudo wget https://github.com/interrupt-software/happy-animals/archive/refs/tags/v1.0.0.tar.gz -P /home/ubuntu/
+sudo wget https://github.com/interrupt-software/happy-animals/archive/refs/tags/v1.0.1.tar.gz -P /home/ubuntu/
 sudo tar xvfz /home/ubuntu/v1.0.0.tar.gz -C /var/www
 sudo rm -fR /var/www/html
 sudo mv /var/www/happy-animals-1.0.0 /var/www/html
